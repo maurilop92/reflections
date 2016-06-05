@@ -36,3 +36,12 @@ How do the diagrams help you visualize the branch structure?
 They show a parent-child relationship between commits, and also explain the
 concept of detached HEAD state (a commit that currently doesn't belong to a
 branch).
+
+--------------------------------------------------------------------------------
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The code in both branches gets joined and the commits from the merged branch are
+added to the master, so the merged branch can be deleted, that's why in the
+diagram is represented as a convergence of paths.
