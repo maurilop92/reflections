@@ -28,3 +28,11 @@ Mostly when you want to experiment or add something to the program that you
 don't know if it's going to work as intended. If it does, you can later merge
 branches together so all your program becomes one, but if doesn't, you just can
 delete the branch and keep working on the previous code.
+
+--------------------------------------------------------------------------------
+
+How do the diagrams help you visualize the branch structure?
+
+They show a parent-child relationship between commits, and also explain the
+concept of detached HEAD state (a commit that currently doesn't belong to a
+branch).
