@@ -45,3 +45,13 @@ the diagram the way we do?
 The code in both branches gets joined and the commits from the merged branch are
 added to the master, so the merged branch can be deleted, that's why in the
 diagram is represented as a convergence of paths.
+
+--------------------------------------------------------------------------------
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+Automatic merges work great when you don't have lines of code interfering with
+each other, but when they do, is much better to do it manually, Git isn't
+smart enough to choose which lines to keep so it let's you do it, since you are
+the one who knows what the code does.
