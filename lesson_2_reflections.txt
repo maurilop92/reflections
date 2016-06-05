@@ -18,3 +18,13 @@ change?
 You can group files that you want to commit together, and you can also check
 the difference between the files in the staging area against those previously
 commited to be sure that what you want to commit is there.
+
+--------------------------------------------------------------------------------
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Mostly when you want to experiment or add something to the program that you
+don't know if it's going to work as intended. If it does, you can later merge
+branches together so all your program becomes one, but if doesn't, you just can
+delete the branch and keep working on the previous code.
